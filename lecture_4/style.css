@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9EBEC;
+    font-family: Poppins;
+    font-weight: 500;
+    /* overflow: hidden; */
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 22px;
+    line-height: 33px;
+    color: #575757;
+}
+
+p.p-24 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #3d3d3d;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 33px;
+}
+
+.toggle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px ; */
+}
+
+header .container .profile {
+    width: 631px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin: 50px auto;
+}
+
+header .container .profile .profile-img {
+    width: 215px;
+    height: 215px;
+    border: 4px solid #F7D039;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header .container .profile .profile-info{
+    padding: 10px;
+} */
+header .container .profile .profile-info h1.name {
+    font-size: 46px;
+    color: #3d3d3d;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+header .container .profile .profile-info p {
+    margin-bottom: 10px;
+}
+
+header .container .profile .profile-info .social-links {
+    width: 222px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .profile .profile-info .social-links i {
+    font-size: 24px;
+    color: #575757;
+
+}
+
+.work-experience {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.work-experience div {
+    width: 170px;
+}
+
+.contact {
+    width: 618px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.contact button {
+    width: 290px;
+    height: 100%;
+    font-size: 22px;
+    border-radius: 7px;
+    border: none;
+    background-color: #fff;
+}
+
+.contact button.yellow {
+    background-color: #FBD144;
+}
+
+.contact button.yellow a {
+    color: #3d3d3d;
+}
+
+.contact button.yellow svg {
+    height: 20px;
+    width: 18px;
+    margin-left: 13px;
+}
+#portfolio .select-buttons{
+    width: 760px;
+    height: 110px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    align-items: center;
+    border-radius: 7px;
+}
+#portfolio .select-buttons button{
+    height: 80px;
+    width: 350px;
+    font-size: 22px;
+    color: #19191b;
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+}
+#portfolio .select-buttons button.port-btn{
+    background-color: #D7D7D7;
+}
+#portfolio .project-box{
+    width: 760px;
+    height: 830px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+#portfolio .project-box .box{
+    width:362px;
+    height: 226px;
+    position: relative;
+    border-radius: 10px;
+}
+#portfolio .project-box .box .img{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width:362px;
+    height: 226px;
+    
+}
+#portfolio .project-box .box img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+#portfolio .project-box .box .content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 45px 10px;
+    background-color: rgba(255, 224, 113, 0.88);
+    transition: all 0.2s ease-out;
+}
+#portfolio .project-box .box .content h4{
+    font-size: 22px;
+    color: #3d3d3d;
+    line-height: 33px;
+    padding: 5px auto;
+}
+#portfolio .project-box .box .content p{
+    font-size: 21px;
+    font-weight: 400;
+}
+#portfolio .project-box .box .content .pr-link{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#portfolio .project-box .box:hover .content{
+    z-index: 1;
+    
+}
+
+/* Footer  */
+#footer {
+    margin: 50px auto;
+    text-align: center;
+}
